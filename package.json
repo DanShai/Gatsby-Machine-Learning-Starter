@@ -1,8 +1,8 @@
 {
-  "name": "mysite",
-  "description": "Gatsby test",
+  "name": "mlstarter",
+  "description": "Gatsby Machine Learning Starter",
   "version": "1.0.0",
-  "author": "Dan S. ",
+  "author": "Dan Shai. ",
   "dependencies": {
     "@tensorflow/tfjs": "^0.12.6",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -16,6 +16,7 @@
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-catch-links": "^1.0.24",
     "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-remark-copy-linked-files": "^1.5.37",
     "gatsby-remark-graph": "^0.2.2",
     "gatsby-remark-katex": "^1.0.14",
     "gatsby-source-filesystem": "^1.5.39",
@@ -27,7 +28,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby ml machine learning tensorflow"
   ],
   "license": "MIT",
   "scripts": {
@@ -49,6 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanShai/msite"
+    "url": "https://github.com/DanShai/Gatsby-Machine-Learning-Starter"
   }
 }
