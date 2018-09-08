@@ -3,6 +3,7 @@ module.exports = {
     title: ' Dan Shai ',
     year: ' 2018 ',
   },
+  pathPrefix: '/Gatsby-Machine-Learning-Starter',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
@@ -13,6 +14,7 @@ module.exports = {
         name: 'pages',
       },
     },
+    'gatsby-remark-copy-linked-files',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -36,5 +38,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '/Gatsby-Machine-Learning-Starter',
 }
