@@ -61,7 +61,7 @@ class Train extends React.Component {
 
     return (
       <div>
-        <div className={mstyles.grid2x2}>{metricElems}</div>
+        <div className={mstyles.chart}>{metricElems}</div>
         {this.state.modelElement}
       </div>
     )
