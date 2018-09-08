@@ -1,0 +1,10 @@
+{
+    "env": {
+      "development": {
+        "plugins": ["transform-async-to-generator"]
+      },
+      "production": {
+        "plugins": ["transform-regenerator", "transform-runtime"]
+      }
+    }
+  }
