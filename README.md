@@ -3,7 +3,7 @@
 a gatsby scientific starter blog for science, maths and machine learning writing and testing.
 <br />
 
-See the starter in action » [demo website](https://danshai.github.io/mnit)
+See the starter in action » [demo website](https://danshai.github.io/Gatsby-Machine-Learning-Starter/mnit)
 <br />
 
 ## Description
@@ -13,7 +13,7 @@ A ready to use scientific blog for writing research and machine learning demos, 
 ## Features:
 
 - Easy editable content in **Markdown** files (posts, pages and parts) via **graphQl**
-- **Tensorflowjs** integration , modified the react [tfjx](https://github.com/ModelDepot/tfjsx) package to work with gatsby
+- **Tensorflowjs** integration , modified the react ** [tfjx](https://github.com/ModelDepot/tfjsx)** package to work with gatsby
 - **chartjs** integration instead of plotly , plotly doesnt compile when deploying. so I used react-chartjs,
   useful to see loss and accuracy functions and other charts you might have.
 - **Katex** support to work with mathematical expressions and research
