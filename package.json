@@ -25,7 +25,8 @@
     "mnist": "^1.1.0",
     "prop-types": "^15.6.2",
     "react-chartjs-2": "^2.7.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.0.5"
   },
   "keywords": [
     "gatsby ml machine learning tensorflow"
