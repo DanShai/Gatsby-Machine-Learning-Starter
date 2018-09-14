@@ -7,6 +7,9 @@ import * as tf from '@tensorflow/tfjs'
 import mnist from 'mnist'
 import mstyles from '../layouts/msite.module.css'
 import Canvas from '../components/canvas'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons'
+//import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const data = mnist.set(1500, 100)
 const train = data.training
@@ -136,7 +139,11 @@ export default class Mnist extends React.Component {
             className="special"
             onClick={() => this.setState({ training: !this.state.training })}
           >
-            {this.state.training ? 'Pause Training' : 'Start Training'}
+            {this.state.training ? (
+              <FontAwesomeIcon icon={faPause} color="white" />
+            ) : (
+              <FontAwesomeIcon icon={faPlay} color="white" />
+            )}
           </button>
 
           {this.state.trained && (

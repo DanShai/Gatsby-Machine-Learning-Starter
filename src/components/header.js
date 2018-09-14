@@ -1,8 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Menu from './menu'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import mstyles from '../layouts/msite.module.css'
+
 const Header = ({ siteTitle }) => (
   <div className={mstyles.coloredbar}>
     <div className={mstyles.namegt}>
@@ -11,14 +14,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <p>
+      <span className={mstyles.wlink}>
         <a
           href="https://github.com/DanShai/Gatsby-Machine-Learning-Starter"
           className={mstyles.mlinks}
         >
-          fork me on Github
+          fork me on Github <FontAwesomeIcon icon={faGithub} color="white" />
         </a>
-      </p>
+      </span>
     </div>
     <Menu />
   </div>
