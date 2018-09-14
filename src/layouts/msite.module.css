@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 *,
 *:before,
 *:after {
@@ -15,11 +16,12 @@
   .grid2x2,
   .innermenucontainer,
   .bsummary,
+  .namegt,
   .chart {
     display: grid !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: repeat(auto, auto) !important;
-    max-width: 600px !important;
+    /*max-width: 600px !important;*/
   }
 }
 
@@ -29,11 +31,12 @@
   .grid2x2,
   .innermenucontainer,
   .bsummary,
+  .namegt,
   .chart {
     display: grid !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: repeat(auto, auto) !important;
-    max-width: 400px !important;
+    /*max-width: 400px !important;*/
   }
 }
 
@@ -43,11 +46,12 @@
   .grid2x2,
   .innermenucontainer,
   .bsummary,
+  .namegt,
   .chart {
     display: grid !important;
     grid-template-columns: 1fr !important;
     grid-template-rows: repeat(auto, auto) !important;
-    max-width: 400px !important;
+    /*max-width: 400px !important;*/
   }
 }
 
@@ -60,7 +64,7 @@
   grid-column-gap: 20rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 90%;
+  width: 95%;
   height: 5rem;
 }
 
@@ -68,7 +72,7 @@
   display: block;
   margin: 1%;
   padding: 4%;
-  width: 90%;
+  width: 95%;
   margin-top: 100px;
 }
 
@@ -99,9 +103,16 @@ button {
 }
 
 .d200 {
-  max-width: 90%;
-  height: 300px;
-  margin: 2%;
+  max-width: 95%;
+  /*height: 300px;*/
+  margin: 1%;
+}
+
+.namegt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 4%;
 }
 
 .chart {
@@ -110,7 +121,7 @@ button {
   grid-gap: 1rem;
   box-shadow: 0 0 0 1px lightgrey;
   border: 2px solid #fff;
-  padding: 2%;
+  padding: 4%;
 }
 
 .bodcontainer {
@@ -153,7 +164,7 @@ button {
   display: block;
   margin: 1%;
   padding: 4%;
-  width: 90%;
+  width: 95%;
   box-shadow: 0 0 0 1px lightgrey;
   border: 2px solid #fff;
   margin-top: 100px;
