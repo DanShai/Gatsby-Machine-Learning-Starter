@@ -136,18 +136,14 @@ export default class Mnist extends React.Component {
         <h2> Tensorflow Mnist Training and Predictions </h2>
         <div className={mstyles.btdiv}>
           <button
-            className="special"
+            className={mstyles.special}
             onClick={() => this.setState({ training: !this.state.training })}
           >
-            {this.state.training ? (
-              <FontAwesomeIcon icon={faPause} color="white" />
-            ) : (
-              <FontAwesomeIcon icon={faPlay} color="white" />
-            )}
+            {this.state.training ? ' Pause' : ' Play'}
           </button>
 
           {this.state.trained && (
-            <button className="special" onClick={() => this.predict()}>
+            <button className={mstyles.special} onClick={() => this.predict()}>
               Predict
             </button>
           )}
