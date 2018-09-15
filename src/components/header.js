@@ -14,14 +14,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <span className={mstyles.wlink}>
+      <p className={mstyles.wlink}>
         <a
           href="https://github.com/DanShai/Gatsby-Machine-Learning-Starter"
           className={mstyles.mlinks}
         >
           fork me on Github <FontAwesomeIcon icon={faGithub} color="white" />
         </a>
-      </span>
+      </p>
     </div>
     <Menu />
   </div>
