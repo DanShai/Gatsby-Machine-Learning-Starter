@@ -139,7 +139,7 @@ export default class Mnist extends React.Component {
             className={mstyles.special}
             onClick={() => this.setState({ training: !this.state.training })}
           >
-            {this.state.training ? ' Pause' : ' Play'}
+            {this.state.training ? ' Pause' : ' Train'}
           </button>
 
           {this.state.trained && (
