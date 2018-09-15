@@ -3,7 +3,7 @@
 a gatsby scientific starter blog for science, maths and machine learning writing and testing.
 <br />
 
-See the starter in action » [demo website](https://danshai.github.io/Gatsby-Machine-Learning-Starter/mnit)
+See the starter in action » [demo website](https://danshai.github.io/Gatsby-Machine-Learning-Starter/)
 <br />
 
 ## Description
