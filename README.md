@@ -1,6 +1,6 @@
 ## Note!
 
-# V2 available at [demo website](https://github.com/DanShai/gatsbyv2-scientific-blog-machine-learning)
+# V2 available in this [ repos ](https://github.com/DanShai/gatsbyv2-scientific-blog-machine-learning)
 
 <hr/>
 ## Gatsby scientific starter Blog
