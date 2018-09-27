@@ -60,7 +60,7 @@
 
 .btdiv {
   margin: 1rem;
-  grid-column-gap: 20rem;
+  grid-column-gap: 5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 95%;

@@ -1,4 +1,9 @@
-# Gatsby scientific starter Blog
+## Note!
+
+# V2 available at [demo website](https://github.com/DanShai/gatsbyv2-scientific-blog-machine-learning)
+
+<hr/>
+## Gatsby scientific starter Blog
 
 a gatsby scientific starter blog for science, maths and machine learning writing and testing.
 <br />
